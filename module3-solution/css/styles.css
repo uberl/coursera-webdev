@@ -38,6 +38,7 @@ header nav .container-fluid {
 @media (min-width: 768px) {
   .hidden-md {
     display: none;
+    width: 0%;
   }
   nav.navbar.navbar-default {
     border-bottom: solid 1px black;
