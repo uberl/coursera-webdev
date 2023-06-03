@@ -1,11 +1,6 @@
 * {
   box-sizing: border-box;
 }
-h1 {
-  margin-bottom: 15px;
-  text-align: center;
-  color: black;
-}
 
 #beef {
   background-color: red;
@@ -18,21 +13,25 @@ h1 {
   background-color: pink;
 }
 
-div.row {
-  position: relative;
-}
-
 .menu-tile {
   border: solid 2.5px black;
   background-color: rgba(128, 128, 128, 0.3);
   float: left;
-  margin-bottom: 5em;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-bottom: 4em;
 }
 
-#header-nav {
-  background-color: blanchedalmond;
+header nav .container-fluid {
+  background-color: rgba(128, 128, 128, 0.2);
+}
+
+#bs-example-navbar-collapse-1 > ul > li {
+  border-top: 1px solid black;
+}
+#bs-example-navbar-collapse-1 > ul > li:nth-child(1) {
+  border-top: 0px;
+  margin-top: -5px;
 }
 
 .menu-tile > h2 {
