@@ -1,4 +1,5 @@
 * {
+  border-radius: 0%;
   box-sizing: border-box;
 }
 
@@ -34,6 +35,23 @@ header nav .container-fluid {
   margin-top: -5px;
 }
 
+@media (min-width: 768px) {
+  .hidden-md {
+    display: none;
+  }
+  nav.navbar.navbar-default {
+    border-bottom: solid 1px black;
+    border-radius: 0%;
+  }
+}
+
+@media (max-width: 768px) {
+  nav div div.navbar-header {
+    border-bottom: solid 1px black;
+    border-radius: 0%;
+  }
+}
+
 .menu-tile > h2 {
   text-align: center;
   border: solid 1px black;
@@ -46,15 +64,4 @@ header nav .container-fluid {
   float: left;
   padding-left: 20px;
   padding-right: 20px;
-}
-
-/********** Large devices only **********/
-@media (min-width: 991px) {
-}
-
-/********** Medium devices only **********/
-@media (min-width: 767px) and (max-width: 991px) {
-}
-/********** Small devices only **********/
-@media (max-width: 766px) {
 }
