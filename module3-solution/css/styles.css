@@ -1,68 +1,55 @@
-* {
-  border-radius: 0%;
-  box-sizing: border-box;
-}
-
-#beef {
-  background-color: red;
-  color: white;
-}
-#sushi {
-  background-color: yellow;
-}
-#chicken {
-  background-color: pink;
-}
-
 .menu-tile {
-  border: solid 2.5px black;
-  background-color: rgba(128, 128, 128, 0.3);
-  float: left;
-  margin-left: 2em;
-  margin-right: 2em;
-  margin-bottom: 4em;
+  width: 90%;
+  background-color: grey;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
 }
 
-header nav .container-fluid {
-  background-color: rgba(128, 128, 128, 0.2);
+h1 {
+  font-weight: 700;
+}
+.menu-tile h2 {
+  font-weight: 600;
 }
 
-#bs-example-navbar-collapse-1 > ul > li {
-  border-top: 1px solid black;
-}
-#bs-example-navbar-collapse-1 > ul > li:nth-child(1) {
-  border-top: 0px;
-  margin-top: -5px;
+.navbar-brand {
+  color: black;
 }
 
-@media (min-width: 768px) {
-  .hidden-md {
-    display: none;
-    width: 0%;
-  }
-  nav.navbar.navbar-default {
-    border-bottom: solid 1px black;
-    border-radius: 0%;
-  }
+#navbar {
+  background-color: grey !important;
+  color: black !important;
 }
 
-@media (max-width: 768px) {
-  nav div div.navbar-header {
-    border-bottom: solid 1px black;
-    border-radius: 0%;
-  }
+.nav-link {
+  color: black;
+  border-bottom: solid 1px black;
 }
 
-.menu-tile > h2 {
-  text-align: center;
-  border: solid 1px black;
-  margin-right: 20px;
-  margin-left: 20px;
-  margin-top: 0.25em;
+#horizontal-line {
+  border-bottom: solid 1px black;
 }
 
-.menu-tile > p {
-  float: left;
-  padding-left: 20px;
-  padding-right: 20px;
+div.border-bitch {
+  width: 100%;
+  border-bottom: solid 1px black;
+  padding-bottom: 10px;
+}
+
+#navbar {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+nav div.container-fluid {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+#navbarsExample01 {
+  padding-bottom: 0px;
+  margin-bottom: 0px;
 }
